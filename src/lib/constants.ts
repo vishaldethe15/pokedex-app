@@ -1,34 +1,3 @@
-export const samplePokemons = [
-  {
-    name: "pikachu",
-    id: 25,
-    image:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
-    types: ["electric"],
-  },
-  {
-    name: "bulbasaur",
-    id: 1,
-    image:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
-    types: ["grass", "poison"],
-  },
-  {
-    name: "charmander",
-    id: 4,
-    image:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
-    types: ["fire"],
-  },
-  {
-    name: "squirtle",
-    id: 7,
-    image:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
-    types: ["water"],
-  },
-];
-
 export const typeColors: Record<string, string> = {
   normal: "bg-gray-200 text-gray-800",
   fire: "bg-red-200 text-red-800",
