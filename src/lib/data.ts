@@ -75,8 +75,6 @@ export const getSinglePokemon = cache(
 
       const fomattedData = formatPokemonData(data);
 
-      console.log(fomattedData);
-
       return fomattedData;
     } catch (error) {
       console.log(error);
