@@ -1,12 +1,17 @@
 import CardList from "@/components/CardList";
-import Navbar from "@/components/Navbar";
-import { samplePokemons } from "@/lib/constants";
+import { getAllPokemons } from "@/lib/data";
 import React from "react";
 
-const HomePage = () => {
+const HomePage = async ({
+  searchParams,
+}: {
+  searchParams: Promise<{ query: string }>;
+}) => {
+  const { query } = await searchParams;
+
   return (
     <div>
-      <CardList pokemons={samplePokemons} />
+      <CardList query={query} />
     </div>
   );
 };
