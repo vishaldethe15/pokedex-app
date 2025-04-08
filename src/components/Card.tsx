@@ -5,17 +5,17 @@ import Link from "next/link";
 
 const Card = ({ name, id, image, types }: PokemonCardProps) => {
   return (
-    <div className="w-[15rem] bg-white border border-amber-400 rounded-2xl shadow-md p-4 hover:shadow-lg transition-all duration-200 ease-in-out flex flex-col items-center text-center">
+    <div className="w-[15rem] bg-white  border border-amber-300 rounded-2xl shadow-md p-4 hover:shadow-lg transition-all duration-200 ease-in-out flex flex-col items-center text-center">
       <Image src={image} alt={name} width={120} height={120} className="mb-4" />
 
       <Link
-        href={"/"}
-        className="text-xl font-semibold capitalize text-gray-800"
+        href={`/pokemon/${name}`}
+        className="text-xl font-semibold capitalize text-neutral-800 hover:text-amber-400"
       >
         {name}
       </Link>
 
-      <div className="text-sm text-gray-500 mb-2">
+      <div className="text-sm text-neutral-700 mb-2">
         #{id.toString().padStart(3, "0")}
       </div>
 
