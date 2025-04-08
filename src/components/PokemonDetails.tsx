@@ -43,7 +43,7 @@ const PokemonDetails: React.FC<{ pokemon: PokemonDetailProps }> = ({
           {pokemon.abilities.map((ability) => (
             <span
               key={ability}
-              className="text-sm capitalize px-3 py-1 bg-amber-100 text-amber-700 rounded-full border border-amber-300"
+              className="text-sm capitalize px-3 py-1 bg-green-100 text-green-700 rounded-full"
             >
               {ability}
             </span>
