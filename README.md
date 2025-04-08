@@ -17,7 +17,7 @@ A sleek and responsive web app to explore Pokémon using [PokeAPI](https://pokea
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/pokemon-explorer.git
+git clone https://github.com/vishaldethe15/pokedex-app.git
 cd pokemon-explorer
 ```
 
@@ -33,7 +33,7 @@ yarn install
 
 ## 🔐 Environment Setup
 
-Create a `.env.local` file in the root of the project and add the following:
+Create a `.env` file in the root of the project and add the following:
 
 ```env
 NEXT_PUBLIC_POKI_API=https://pokeapi.co/api/v2/pokemon
