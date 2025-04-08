@@ -76,12 +76,3 @@ To create a production build:
 npm run build
 npm start
 ```
-
----
-
-> Built with ❤️ using Next.js, TypeScript & Tailwind CSS.
-
-```
-
-Let me know if you want this saved as a `.md` file or want to add things like screenshots, deployment info, or GitHub badges!
-```
