@@ -6,5 +6,18 @@ export type PokemonCardProps = {
 };
 
 export type PokemonListProps = {
-  pokemons: PokemonCardProps[];
+  pokemons: PokemonCardProps[] | undefined;
+};
+
+export type PokemonDetailProps = {
+  id: number;
+  name: string;
+  image: string;
+  types: string[];
+  abilities: string[];
+  stats: {
+    name: string;
+    value: number;
+  }[];
+  moves: string[];
 };
