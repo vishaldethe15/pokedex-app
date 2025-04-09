@@ -18,7 +18,7 @@ A sleek and responsive web app to explore Pokémon using [PokeAPI](https://pokea
 
 ```bash
 git clone https://github.com/vishaldethe15/pokedex-app.git
-cd pokemon-explorer
+cd pokedex-app
 ```
 
 ### 2. Install Dependencies
