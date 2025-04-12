@@ -61,7 +61,7 @@ const CardList = ({ query }: { query: string }) => {
           <button
             onClick={handleLoadMore}
             disabled={loading}
-            className="px-6 py-2 cursor-pointer bg-amber-500 text-white rounded-xl shadow hover:bg-amber-600 disabled:opacity-50"
+            className="px-6 py-2 cursor-pointer bg-amber-500 text-white rounded-xl shadow hover:bg-amber-600 disabled:opacity-50 disabled:bg-neutral-700"
           >
             {loading ? "Loading..." : "Load More"}
           </button>
