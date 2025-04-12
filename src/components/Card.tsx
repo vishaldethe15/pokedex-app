@@ -6,7 +6,14 @@ import Link from "next/link";
 const Card = ({ name, id, image, types }: PokemonCardProps) => {
   return (
     <div className="w-[15rem] bg-white  border border-amber-300 rounded-2xl shadow-md p-4 hover:shadow-lg transition-all duration-200 ease-in-out flex flex-col items-center text-center">
-      <Image src={image} alt={name} width={120} height={120} className="mb-4" />
+      <Image
+        src={image}
+        alt={name}
+        width={120}
+        height={120}
+        className="mb-4"
+        loading="lazy"
+      />
 
       <Link
         href={`/pokemon/${name}`}
